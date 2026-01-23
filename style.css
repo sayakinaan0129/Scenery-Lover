@@ -53,6 +53,16 @@ body {  font-family: 'Alike', Helvetica, serif;;
 /* ==================================================
    HEADER + TOP NAV
    ================================================== */
+h1  {font-family: 'Cormorant Garamond', serif;
+    font-weight: 600; 
+}
+
+
+nav a {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400; /* Regular */
+}
+
 
 header {
   background-color: #545454;
@@ -142,3 +152,7 @@ footer {
    ✔ Nav styling
    ✖ Structural layout rules
    ================================================== */
+
+   .special-font {
+    font-family: 'Cormorant Garamond', serif;
+}
