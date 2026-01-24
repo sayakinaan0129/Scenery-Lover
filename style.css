@@ -54,15 +54,14 @@ body {  font-family: 'Alike', Helvetica, serif;;
 /* ==================================================
    HEADER + TOP NAV
    ================================================== */
-h1  {font-family: 'Cormorant Garamond', serif;
-    font-weight: 600; 
+
+h1, h2, h3, .special-font {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 400;
+  line-height: 1.3;
+  margin: 0 0 0.5em 0;
 }
 
-
-nav a {
-    font-family: 'Cormorant Garamond', serif;
-    font-weight: 400; /* Regular */
-}
 
 
 header {
@@ -137,12 +136,34 @@ section {
    ================================================== */
 
 footer {
-  background-color: #545454;
+  background-color: #545454; 
   color: #ba9ceb;
   text-align: center;
-  padding: 2rem;
   font-size: 0.85rem;
+  padding: 2rem;          
+  position: relative;    
+  overflow: visible;       
 }
+
+
+.footer-logo {
+  position: absolute;
+  bottom: 0px;               
+  left: 0;               
+  width: 80px;           
+  height: auto;
+}
+
+
+.footer-logo-wrapper {
+  position: relative;       
+  height: 0;                
+}
+
+
+
+
+
 
 /* ==================================================
    STUDENT SAFE EDIT ZONE
@@ -154,7 +175,34 @@ footer {
    ✖ Structural layout rules
    ================================================== */
 
-   .special-font {
-    font-family: 'Cormorant Garamond', serif;
+   h1 {
+  font-size: 3rem;  
 }
 
+h2 {
+  font-size: 2.2rem;  
+}
+
+h3 {
+  font-size: 1.5rem; 
+}
+
+.main-text {
+  font-size: 1rem;  
+}
+
+
+p {
+  font-size: 0.7rem;  
+}
+
+
+.video-img1 {
+width:120px;
+height: auto;
+}
+
+.video-img2 {
+width:160px;
+height: auto;
+}
